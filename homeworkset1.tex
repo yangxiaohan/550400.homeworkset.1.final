@@ -234,6 +234,8 @@ you are to consider.  So, \emph{be sure to consult IMM}.
 \newpage
 \noindent\textbf{Answer to Problem 3:}\\
 
+Our problem is to find a good git strategy to combine the work of A, B, C and D so that we can solve merge conflicts well. With the help of git, different people can work separately and more efficiently. After they work out their own parts, they put them together using merge commands in git. But during merging, some problems may arise. So our goal is to develop a strategy that can solve these problems better. To do this, we devise some work flow strategies, compare them and choose the better one.\\
+
 One strategy is as the following: each student builds a git folder and does his part under the folder. After finishing his part, he pushes it to his github repository. After all the four students finish their job, one student gets the github addresses of the four students and pull each part from the github repository and merge them. This strategy is illustrated in Figure 3.\\
 \begin{figure}[!htb]
     \begin{center}
@@ -242,7 +244,7 @@ One strategy is as the following: each student builds a git folder and does his 
     \caption{Working Flow of Strategy 1}
 \end{figure}
 
-Another strategy is to build a git folder first. Under the folder, build four branches for the four parts. The four students do their own part and push it to their own github repository. Then a student pulls each part from the github repository to the corresponding branch and merges each branch with master branch. This strategy is illustrated in Figure 4.\\
+Another strategy is to build a git folder first. Under the folder, build four branches for the four parts. The four students do their own part under the branches. After they finish, they first pull from the master branch, then merge with their own work and finally push it to the master branch. This strategy is illustrated in Figure 4.\\
 \begin{figure}[!htb]
     \begin{center}
         \includegraphics[width=0.78\textwidth]{2.png}
@@ -250,17 +252,17 @@ Another strategy is to build a git folder first. Under the folder, build four br
     \caption{Working Flow of Strategy 2}
 \end{figure}
 
-Our problem is to find a better git strategy to combine the work of A, B, C and D so that we can solve merge conflicts well. With the help of git, different people can work separately and more efficiently. After they work out their own parts, they put them together using merge commands in git. But during merging, some problems may arise. So our goal is to develop a strategy that can solve these problems better.\\
+To compare the above two strategies, we build a mathematical model. In the model, the way of merging the four parts: \emph{Introduction}, \emph{Problem Statement}, \emph{Timeline} and \emph{Deliverable} part of the presentation, and the results of merging are what we want to study, which are the endogenous variables. Other parts of \texttt{main.tex} file or the presentation, such as the preamble part or the conclusion part of the presentation, are not what we are going to look into, so they are all exogenous variables and can be ignored.\\
 
-To compare the above two strategies, we build a mathematical model. In the model, the way of merging the four parts: introduction, problem statement, timeline and deliverable part of the presentation, and the results of merging are what we want to study, which are the endogenous variables. Other parts of the main.txt file or the presentation, such as the preamble part or the conclusion part of the presentation, are not what we are going to look into, so they are all exogenous variables.\\
+In the first strategy, suppose student A does the final merging procedure. After all the four parts are done, A has to add, commit and solve merge conflicts after pulling each of other students' work.\\
 
-If we have a preamble part in the main.txt file, we can commit it before merging. If we have a conclusion part, we can merge one more time, whose procedure is just as the previous merging. So we can simply ignore these two parts and regard the main.txt file as a presentation file made up of only four parts.\\
+In the second strategy, if a student is done with his own part, he first add and commit, then pull from the master branch and solve merge conflict, and finally push back to the master branch. This procedure is the same for every student. After the last one does these things, the whole work is done.\\
 
-For the first strategy, suppose student A does the final merging procedure. Then he has to pay attention to each merging step and make sure that he commits before merging otherwise the content will be overwritten. For the second one, the students only need to merge branches A, B, C and D to the master branch. Both methods have to deal with the conflict of merging by deleting the part that is not needed in the main.txt file.\\
+In my opinion, the second strategy is better. There are several reasons for this. On one hand, in the first strategy, a student has to be chosen to do the merging process and he has to do it for four times while in the second strategy, there is no need to choose such a student and the work of each student is almost the same. On the other hand, merging can only be done when all the students finish their part in the first strategy. However, in the second strategy, every student merges after they finish so the whole work is done at the same time when the last student merges and pushes his work to the master branch.\\
 
-The model is useful. The information needed in the model is easy to get and we can make it accurate and satisfying the requirements of the model perfectly. We can let A write the introduction containing only a letter ``A", B write a letter ``B" as the problem statement part, C write ``C" and D write ``D". It takes little effort. Then we merge the four parts according to the two strategies stated above. According to the problems we meet in the merging and how we solve them, we can compare which strategy is better.\\
+The model is useful. The information needed in the model is easy to get and we can make it accurate and satisfying the requirements of the model perfectly. We can let A write \emph{Introduction} containing only a letter ``A", B write a letter ``B" as \emph{Problem Statement} part, C write ``C" and D write ``D". It takes little effort. Then we merge the four parts according to the two strategies stated above. According to the problems we meet in the merging and how we solve them, we can compare which strategy is better.\\
 
-We get the conclusion that the second strategy is better than the first one from our model. To test the model, we do the simulation procedures. We replace each part by some very simple sentences or even a letter and then merge them to see whether it works better in strategy 2. If yes, then we can say our model is reasonable and in some sense a good model.\\
+To test the model, we do the simulation procedures. We replace each part by some very simple sentences or even a letter and then merge them to see whether it works better in strategy 2. If yes, then we can say our model is reasonable and in some sense a good model.\\
 
 
 \newpage
