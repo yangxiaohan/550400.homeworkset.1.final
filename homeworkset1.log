@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.7)  23 OCT 2012 10:56
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.7)  23 OCT 2012 14:59
 entering extended mode
 **E:/notes/PhD*Year2*Sem1/550.400*Mathematical*Modeling*and*Consulting/hw1.git/
 homeworkset1.tex
@@ -349,13 +349,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+[6 <E:/notes/PhD Year2 Sem1/550.400 Mathematical Modeling and Consulting/hw1.gi
+t/2.png>] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
 
  []
 
-[6 <E:/notes/PhD Year2 Sem1/550.400 Mathematical Modeling and Consulting/hw1.gi
-t/2.png>] [7]
+
 Underfull \hbox (badness 10000) in paragraph at lines 284--285
 
  []
@@ -380,17 +380,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
-
- []
-
 [8]
+Underfull \hbox (badness 10000) in paragraph at lines 295--297
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 298--299
 
  []
@@ -411,11 +406,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 319.
 Here is how much of TeX's memory you used:
  6202 strings out of 494049
  91451 string characters out of 3151717
- 205373 words of memory out of 3000000
+ 204373 words of memory out of 3000000
  9448 multiletter control sequences out of 15000+200000
  7199 words of font info for 26 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 32i,7n,49p,1150b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,7n,49p,1414b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
 <E:/softwares/miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/softwares/
 miktex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><E:/softwares/miktex/fonts/typ
 e1/public/amsfonts/cm/cmr10.pfb><E:/softwares/miktex/fonts/type1/public/amsfont
@@ -423,7 +418,7 @@ s/cm/cmr12.pfb><E:/softwares/miktex/fonts/type1/public/amsfonts/cm/cmr8.pfb><E:
 /softwares/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><E:/softwares/mikte
 x/fonts/type1/public/amsfonts/cm/cmti12.pfb><E:/softwares/miktex/fonts/type1/pu
 blic/amsfonts/cm/cmtt12.pfb>
-Output written on homeworkset1.pdf (10 pages, 148478 bytes).
+Output written on homeworkset1.pdf (10 pages, 153754 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)
